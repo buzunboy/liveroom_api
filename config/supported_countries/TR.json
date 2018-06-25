@@ -1,0 +1,23 @@
+{
+    "SupportedCountries": [
+        {
+            "ID":"129831203234",
+            "regionCode": "TR",
+            "name": "Türkiye",
+            "coverImage": "https://thedmcistanbul.files.wordpress.com/2013/02/panaroma_night_1.jpg",
+            "flag": "https://orig00.deviantart.net/034c/f/2007/294/9/2/turkiye_by_turkiye.jpg",
+            "latitude": 38.7417734,
+            "longitude": 26.1912286
+        },
+        {
+            "ID":"012391231",
+            "regionCode": "FR",
+            "name": "Fransa",
+            "coverImage": "http://speaklife.org.uk/wp-content/uploads/2017/06/night_paris_1496666320.jpg",
+            "flag": "http://flags.fmcdn.net/data/flags/w1160/fr.png",
+            "latitude": 46.1369196,
+            "longitude": -2.4344761
+        }
+    ],
+    "version": 3
+}
