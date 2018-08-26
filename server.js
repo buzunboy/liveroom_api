@@ -3,7 +3,7 @@ const MongoClient    = require('mongodb').MongoClient;
 const bodyParser     = require('body-parser');
 var db             = require('./config/db');
 const app            = express();
-const port = 8081;
+const port = 8080;
 
 var restart_called = false;
 
