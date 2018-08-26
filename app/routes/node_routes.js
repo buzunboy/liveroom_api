@@ -30,7 +30,7 @@ var getClientIp = function(req) {
                 "months": months,
                 "users": users
             };
-            console.log('Respond is prepared -> ');
+            console.log('Responds is prepared -> ');
             console.log(resp);
             res.send(resp);
         });
