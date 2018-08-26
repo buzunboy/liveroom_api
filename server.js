@@ -9,7 +9,11 @@ var restart_called = false;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 MongoClient.connect(db.url, (err, database) => {
   if (err) return console.log(err)
   db = database.db("smart_agriculture")
