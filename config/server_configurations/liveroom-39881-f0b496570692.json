@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "liveroom-39881",
+  "private_key_id": "f0b496570692d1fa41464d20cb5386970d715d60",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCPtvjXJbZLcWoF\nl2Lnx+bxqHZwrFRgrhS0kBvCNfuOjEMCRBM6KzEb5urHNMw8LNRnMNdDCM5Umk2S\nZqAx3eqO4JbotIgUc6+XVZorCpWP4HobZ6XLdZUYnGLIiFj9+v1ef0utJtrFv+Zl\nhw65fVKVWatj+pJ5PnzpA/kEbizwgYh1UEmhMGQhxVVxP8GZQAOKon5cFVOcmCN1\nYU6cRwQlA+WBS2Mmyfz8CLDtoJL4kBTRl6WQ5nBdmsoaW8YCRW/iqtZR5dYBcwdm\nXkpRCNsZ7Jkf4hL7COaxa59CmOwS/cpTChw+4EziudAhTjmbRtbo9PECKi6vx+6H\neDMQRcaFAgMBAAECggEAA9zdpF7BnxZ9zIeso2E2nmEyScYAAJc9PDsxW896ovK3\nLFzrDWGy0Lassc0D/kwQK3PfHVCjxxdcpWY3wQ9faha0R63uiGoxmoY0/horOfJF\nJe5rwOO4rbAqYYx0o+L2o28VeCJ2t+D4DtuJ9EdfjF8cIbRO8o5Q6ixuqYVSlOZE\nFdrxGNQqnqxbXM3qyMIUUu27lIWQEG1ZDui1Y/r26XfbDoDZhDeNWEOJqR/9ZaMZ\noQLzvXtfQAtjSVmwvQSlTenNArzDpObXj+cb+tuktnFkQBydOe8d+tS+zUlJBSWc\nKLGV01WhquQw7U6uB7zi0prkKGytIc8zfouEh8P/IwKBgQDERQZlrOD4CfVvA1Pz\no+gWwiPweWvtL39NiP4Z2UXDUongnFP/vzcav3PboMJjcLXoDq/jiE2pQPRmo3CB\nHpODi04Gy6rRlpDu82hDfFeiKgoy3dXIIKRIVbIy1KnyOZOYnnRvrjMX4ocUMabq\nGIDSpgtoTU8ieSs40cCKNJMRBwKBgQC7c4AIdzcDn6CEYWHM18naLf/ls2iR9ERv\n3SlkxB2uVrBL6K+XkZB6D7D3NhoPB+OVKkvarT159BUnsvGmmBE2mL7+GObjVKZM\nFBucmU6IWQQWiytFeAbkj4CB3HHf2E5Rok9nZj8Ly9O22Yw64sbOoroLmoCSNdZK\nDoNBxw6lEwKBgQCMi6kjEgMfW3JHhqiNZagC9A7sWuawODz+9sSPGglc7zQQhaGZ\nGAKLwuFiOuI4dzOr8yh81NRYCU16WjtsGssjfZPoRdwSrbEni2H0QYw3ccdP2Y8G\n+mjp64Pp5mO0MwrAVWenuaSYy/xSt6OBKv7E2WZ90C6EzyPmUj2AOlm97QKBgCgP\neQ9WGwXFOZLRFQuoGlVse0Hl47U9lNqrU0tbtlQp5qdyZQRpcY0EiXdrson/z51z\nWp6zY24KwfKoBYjq+tLGNhsryzxOPPQJYBVJlkUBcSQ4Pdks25xBJt+Z8yQ5oBNG\nMt4QNe0ZdHehapyzFnXWxRfxvwSASPmuvFJ0bibNAoGBAJ+gl+H+gMKTEzRVw3W9\nbM81q1LJ6jhftdtBM3xF/hSJ8p7tf+0Dj7x/PrxU1vGWDuyvF2rXE00igL+vlGwm\nyv9k9oSO+vHfXlffbLZgvIhfsVES6PSlWt7FowNiMGhBnuPIVGzi8/nTxq+AxrPG\nUSh5EJAEeBtU/qx5C2XavEzf\n-----END PRIVATE KEY-----\n",
+  "client_email": "liveadmin@liveroom-39881.iam.gserviceaccount.com",
+  "client_id": "113919970031824772872",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/liveadmin%40liveroom-39881.iam.gserviceaccount.com"
+}

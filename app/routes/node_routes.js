@@ -1,3 +1,5 @@
+const users = require('../admin_panel/users.js');
+
 module.exports = function(app, db) {
 
 var getClientIp = function(req) {
@@ -20,4 +22,30 @@ var getClientIp = function(req) {
         console.log('Get request is received');
         res.send(respond);
     });
+
+    app.get('/admin/v1/users/filter/lastSeen/', (req, res) => {
+        console.log('GET admin/v1/users/filter/lastSeen is received');
+        users.filteredByLastSeen(function(months, users) {
+            let resp = {
+                "months": months,
+                "users": users
+            };
+            console.log('Respond is prepared -> ');
+            console.log(resp);
+            res.send(resp);
+        });
+    });
+
+    app.get('/admin/v1/users/filter/lastSeen/today', (req, res) => {
+        console.log('GET admin/v1/users/filter/lastSeen/today');
+        users.filteredByTodayLogged(function(count) {
+            let resp = {
+                "result": count
+            }
+            console.log('Respond is prepared -> ');
+            console.log(resp);
+            res.send(resp);
+        });
+    });
+    
 };
